@@ -1,0 +1,343 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FF730A6125017E00007D3204 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF730A6025017E00007D3204 /* AppDelegate.swift */; };
+		FF730A6325017E00007D3204 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF730A6225017E00007D3204 /* SceneDelegate.swift */; };
+		FF730A6525017E01007D3204 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF730A6425017E01007D3204 /* ViewController.swift */; };
+		FF730A6825017E01007D3204 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF730A6625017E01007D3204 /* Main.storyboard */; };
+		FF730A6A25017E02007D3204 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF730A6925017E02007D3204 /* Assets.xcassets */; };
+		FF730A6D25017E02007D3204 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF730A6B25017E02007D3204 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FF730A5D25017E00007D3204 /* 2020-09-03-Awesome Button-Jagmohan-Sidhu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "2020-09-03-Awesome Button-Jagmohan-Sidhu.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF730A6025017E00007D3204 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FF730A6225017E00007D3204 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FF730A6425017E01007D3204 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FF730A6725017E01007D3204 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FF730A6925017E02007D3204 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FF730A6C25017E02007D3204 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FF730A6E25017E02007D3204 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FF730A5A25017E00007D3204 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FF730A5425017E00007D3204 = {
+			isa = PBXGroup;
+			children = (
+				FF730A5F25017E00007D3204 /* 2020-09-03-Awesome Button-Jagmohan-Sidhu */,
+				FF730A5E25017E00007D3204 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FF730A5E25017E00007D3204 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF730A5D25017E00007D3204 /* 2020-09-03-Awesome Button-Jagmohan-Sidhu.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FF730A5F25017E00007D3204 /* 2020-09-03-Awesome Button-Jagmohan-Sidhu */ = {
+			isa = PBXGroup;
+			children = (
+				FF730A6025017E00007D3204 /* AppDelegate.swift */,
+				FF730A6225017E00007D3204 /* SceneDelegate.swift */,
+				FF730A6425017E01007D3204 /* ViewController.swift */,
+				FF730A6625017E01007D3204 /* Main.storyboard */,
+				FF730A6925017E02007D3204 /* Assets.xcassets */,
+				FF730A6B25017E02007D3204 /* LaunchScreen.storyboard */,
+				FF730A6E25017E02007D3204 /* Info.plist */,
+			);
+			path = "2020-09-03-Awesome Button-Jagmohan-Sidhu";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FF730A5C25017E00007D3204 /* 2020-09-03-Awesome Button-Jagmohan-Sidhu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF730A7125017E02007D3204 /* Build configuration list for PBXNativeTarget "2020-09-03-Awesome Button-Jagmohan-Sidhu" */;
+			buildPhases = (
+				FF730A5925017E00007D3204 /* Sources */,
+				FF730A5A25017E00007D3204 /* Frameworks */,
+				FF730A5B25017E00007D3204 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "2020-09-03-Awesome Button-Jagmohan-Sidhu";
+			productName = "2020-09-03-Awesome Button-Jagmohan-Sidhu";
+			productReference = FF730A5D25017E00007D3204 /* 2020-09-03-Awesome Button-Jagmohan-Sidhu.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FF730A5525017E00007D3204 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = SFSU;
+				TargetAttributes = {
+					FF730A5C25017E00007D3204 = {
+						CreatedOnToolsVersion = 11.6;
+					};
+				};
+			};
+			buildConfigurationList = FF730A5825017E00007D3204 /* Build configuration list for PBXProject "2020-09-03-Awesome Button-Jagmohan-Sidhu" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FF730A5425017E00007D3204;
+			productRefGroup = FF730A5E25017E00007D3204 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FF730A5C25017E00007D3204 /* 2020-09-03-Awesome Button-Jagmohan-Sidhu */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FF730A5B25017E00007D3204 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF730A6D25017E02007D3204 /* LaunchScreen.storyboard in Resources */,
+				FF730A6A25017E02007D3204 /* Assets.xcassets in Resources */,
+				FF730A6825017E01007D3204 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FF730A5925017E00007D3204 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF730A6525017E01007D3204 /* ViewController.swift in Sources */,
+				FF730A6125017E00007D3204 /* AppDelegate.swift in Sources */,
+				FF730A6325017E00007D3204 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FF730A6625017E01007D3204 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF730A6725017E01007D3204 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FF730A6B25017E02007D3204 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF730A6C25017E02007D3204 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FF730A6F25017E02007D3204 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FF730A7025017E02007D3204 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FF730A7225017E02007D3204 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X8X47D27Y8;
+				INFOPLIST_FILE = "2020-09-03-Awesome Button-Jagmohan-Sidhu/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.sfsu.-020-09-03-Awesome-Button-Jagmohan-Sidhu";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FF730A7325017E02007D3204 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X8X47D27Y8;
+				INFOPLIST_FILE = "2020-09-03-Awesome Button-Jagmohan-Sidhu/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.sfsu.-020-09-03-Awesome-Button-Jagmohan-Sidhu";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FF730A5825017E00007D3204 /* Build configuration list for PBXProject "2020-09-03-Awesome Button-Jagmohan-Sidhu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF730A6F25017E02007D3204 /* Debug */,
+				FF730A7025017E02007D3204 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF730A7125017E02007D3204 /* Build configuration list for PBXNativeTarget "2020-09-03-Awesome Button-Jagmohan-Sidhu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF730A7225017E02007D3204 /* Debug */,
+				FF730A7325017E02007D3204 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FF730A5525017E00007D3204 /* Project object */;
+}
